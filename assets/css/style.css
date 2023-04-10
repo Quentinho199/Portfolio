@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #0078ff;
+  color: #d6c3b3;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -40,7 +40,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #0078ff;
+  color: #d6c3b3;
 }
 
 .color-d {
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .box-shadow,
-.card-blog,
+.card-stage,
 .work-box,
 .service-box,
 .paralax-mf {
@@ -63,7 +63,7 @@ a:hover {
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #15112b;
 }
 
 .display-5 {
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  /*background-color: #f4eeea;*/
 }
 
 .overlay-mf {
@@ -157,7 +157,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #0078ff;
+  background: #d6c3b3;
   bottom: 0;
   left: 0;
 }
@@ -187,7 +187,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0078ff;
+  border-left: 2px solid #d6c3b3;
   position: relative;
 }
 
@@ -231,7 +231,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #d6c3b3;
 }
 
 
@@ -262,7 +262,7 @@ section {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   margin: 0 auto;
 }
 
@@ -280,7 +280,7 @@ section {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   width: 100px;
   bottom: -12px;
 }
@@ -317,18 +317,31 @@ section {
 .socials .ico-circle {
   height: 40px;
   width: 40px;
-  font-size: 1.2rem;
+  font-size: 18px;
   border-radius: 50%;
-  line-height: 1.6;
+  line-height: 2.1;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #d6c3b3;
   transition: all 500ms ease;
+  text-align: center;
 }
+/*font-size: 18px;*/
+/*display: inline-block;*/
+/*background: #212431;*/
+/*color: #fff;*/
+/*line-height: 1;*/
+/*padding: 8px 0;*/
+/*margin-right: 4px;*/
+/*border-radius: 50%;*/
+/*text-align: center;*/
+/*width: 36px;*/
+/*height: 36px;*/
+/*transition: 0.3s;*/
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 3px #15112b;
   transition: all 500ms ease;
 }
 
@@ -337,7 +350,7 @@ section {
 .widget-tags ul,
 .widget-sidebar .list-sidebar,
 .box-comments .list-comments,
-.blog-wrapper .post-meta ul,
+.stage-wrapper .post-meta ul,
 .list-ico,
 .socials ul {
   list-style: none;
@@ -350,7 +363,7 @@ section {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: #d6c3b3;
   margin-right: 10px;
 }
 
@@ -363,8 +376,23 @@ section {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #e8ceb0;
   display: block;
+}
+
+.profile .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #212431;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
 }
 
 /*------/ Owl Carousel /------*/
@@ -381,15 +409,15 @@ section {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #15112b;
+  border: 0px solid #15112b;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: #15112b;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -408,7 +436,7 @@ section {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -432,7 +460,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #d6c3b3;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -473,7 +501,7 @@ section {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #d6c3b3;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -529,9 +557,9 @@ section {
 
 .button-a {
   text-decoration: none;
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #15112b;
 }
 
 .button-big {
@@ -690,7 +718,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #d6c3b3;
 }
 
 .navbar .dropdown:hover>ul {
@@ -795,7 +823,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0078ff;
+  color: #d6c3b3;
 }
 
 .navbar-mobile .getstarted,
@@ -830,7 +858,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #0078ff;
+  color: #d6c3b3;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -910,15 +938,14 @@ section {
 
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #0078ff;
 }
 
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #15112b;
 }
 
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #15112b;
 }
 
 .hero-single .breadcrumb a {
@@ -953,15 +980,16 @@ section {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #d6c3b3;
   margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
+  border-radius: 20px;
   height: 0.7rem;
 }
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: #15112b;
+  border-radius: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -978,8 +1006,8 @@ section {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  background-color: #e8ceb0;
+  box-shadow: 0 0 0 10px #15112b;
 }
 
 .service-box .service-ico {
@@ -1032,12 +1060,17 @@ section {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #15112b;
 }
 
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
+  color: #15112b;
+}
+
+.counter-text{
+  color: #15112b;
 }
 
 /*--------------------------------------------------------------
@@ -1073,21 +1106,52 @@ section {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #a46633;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #a46633;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #a46633;
 }
 
 .work-content .w-like .num-like {
   font-size: 0.7rem;
+}
+
+.work-box .ico-circle {
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #d6c3b3;
+  transition: all 500ms ease;
+  text-align: center;
+}
+/*font-size: 18px;*/
+/*display: inline-block;*/
+/*background: #212431;*/
+/*color: #fff;*/
+/*line-height: 1;*/
+/*padding: 8px 0;*/
+/*margin-right: 4px;*/
+/*border-radius: 50%;*/
+/*text-align: center;*/
+/*width: 36px;*/
+/*height: 36px;*/
+/*transition: 0.3s;*/
+
+.work-box .ico-circle:hover {
+  background-color: #d6c3b3;
+  color: #fff;
+  box-shadow: 0 0 0 3px #15112b;
+  transition: all 500ms ease;
 }
 
 .w-title {
@@ -1115,11 +1179,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0078ff;
+  border: 1px solid #d6c3b3;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0078ff;
+  background-color: #d6c3b3;
 }
 
 .portfolio-details .portfolio-info {
@@ -1163,7 +1227,7 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonial-box {
-  color: #fff;
+  color: #15112b;
   text-align: center;
 }
 
@@ -1176,7 +1240,7 @@ section {
 }
 
 .testimonial-box .author {
-  color: #fff;
+  color: #15112b;
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
@@ -1186,8 +1250,8 @@ section {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #0078ff;
-  background-color: #fff;
+  color: #f4eeea;
+  background-color: #15112b;
   width: 52px;
   height: 52px;
   display: block;
@@ -1222,12 +1286,12 @@ section {
 .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #f3eeea;
   opacity: 1;
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #fff;
+  background-color: #15112b;
 }
 
 /*--------------------------------------------------------------
@@ -1295,7 +1359,7 @@ section {
 
 .php-email-form input:focus,
 .php-email-form textarea:focus {
-  border-color: #0078ff;
+  border-color: #d6c3b3;
 }
 
 .php-email-form input {
@@ -1308,7 +1372,7 @@ section {
 }
 
 .php-email-form button[type=submit] {
-  background: #0078ff;
+  background: #d6c3b3;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1340,19 +1404,19 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Blog
+# stage
 --------------------------------------------------------------*/
 @media (min-width: 767px) {
-  .card-blog {
+  .card-stage {
     margin-bottom: 3rem;
   }
 }
 
-.card-blog .card-body {
+.card-stage .card-body {
   position: relative;
 }
 
-.card-blog .card-category-box {
+.card-stage .card-category-box {
   position: absolute;
   text-align: center;
   top: -16px;
@@ -1362,16 +1426,16 @@ section {
   overflow: hidden;
 }
 
-.card-blog .card-category {
+.card-stage .card-category {
   display: inline-block;
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   border-radius: 4px;
 }
 
-.card-blog .card-category .category {
+.card-stage .card-category .category {
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
@@ -1380,27 +1444,27 @@ section {
   margin-bottom: 0;
 }
 
-.card-blog .card-title {
+.card-stage .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
 }
 
-.card-blog .card-description {
+.card-stage .card-description {
   color: #4e4e4e;
 }
 
-.card-blog .post-author {
+.card-stage .post-author {
   display: inline-block;
 }
 
-.card-blog .post-date {
+.card-stage .post-date {
   color: #4e4e4e;
   display: inline-block;
   float: right;
 }
 
 /*--------------------------------------------------------------
-# Blog Single
+# stage Single
 --------------------------------------------------------------*/
 .post-box,
 .form-comments,
@@ -1421,40 +1485,40 @@ section {
   }
 }
 
-.blog-wrapper .article-title {
+.stage-wrapper .article-title {
   font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
-  .blog-wrapper .article-title {
+  .stage-wrapper .article-title {
     font-size: 1.9rem;
   }
 }
 
-.blog-wrapper .post-meta {
+.stage-wrapper .post-meta {
   margin: 1rem 0;
 }
 
-.blog-wrapper .post-meta ul {
-  border-left: 4px solid #0078ff;
+.stage-wrapper .post-meta ul {
+  border-left: 4px solid #d6c3b3;
   margin-top: 1rem;
 }
 
-.blog-wrapper .post-meta ul li {
+.stage-wrapper .post-meta ul li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.blog-wrapper .post-meta ul a {
-  color: #0078ff;
+.stage-wrapper .post-meta ul a {
+  color: #d6c3b3;
 }
 
-.blog-wrapper .post-meta ul span {
+.stage-wrapper .post-meta ul span {
   color: #1e1e1e;
 }
 
-.blog-wrapper .blockquote {
-  border-left: 4px solid #0078ff;
+.stage-wrapper .blockquote {
+  border-left: 4px solid #d6c3b3;
   padding: 18px;
   font-style: italic;
 }
@@ -1491,7 +1555,7 @@ section {
 }
 
 .box-comments .list-comments a {
-  color: #0078ff;
+  color: #d6c3b3;
 }
 
 .box-comments .list-comments span {
@@ -1507,7 +1571,7 @@ section {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #0078ff;
+  border-left: 5px solid #d6c3b3;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1524,7 +1588,7 @@ section {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   top: 20px;
 }
 
@@ -1535,8 +1599,8 @@ section {
 }
 
 .sidebar-search .btn-search {
-  background-color: #0078ff;
-  border-color: #0078ff;
+  background-color: #d6c3b3;
+  border-color: #d6c3b3;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1544,7 +1608,7 @@ section {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #d6c3b3;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
