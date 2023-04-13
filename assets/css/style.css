@@ -596,7 +596,7 @@ section {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #d6c3b3;
 }
 
 #header .logo img {
@@ -864,6 +864,7 @@ section {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1230,7 +1231,10 @@ section {
   color: #15112b;
   text-align: center;
 }
-
+.sources{
+  color: white;
+  text-align: center;
+}
 .testimonial-box .author-test {
   margin-top: 1rem;
 }
@@ -1625,7 +1629,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #e8ceb0;
 }
 
 footer .copyright {
